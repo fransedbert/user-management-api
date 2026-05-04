@@ -53,11 +53,12 @@ CREATE DATABASE db_user;
 ```
 mvn spring-boot:run
 ```
-📡 Testing API
+
+## 📡 Testing API
 
 You can test this API using:
 
-==== 🧪 Postman ====
+## 🧪 Postman 
 
 Use Postman to send HTTP requests to the API:
 
@@ -76,7 +77,7 @@ POST http://localhost:8080/users
   "email": "test@email.com"
 }
 ```
-====🗄️ DBeaver ====
+## 🗄️ DBeaver
 
 You can also check the database using DBeaver:
 
