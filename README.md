@@ -62,23 +62,30 @@ You can test this API using:
 Use Postman to send HTTP requests to the API:
 
 - GET all users:
+```
 GET http://localhost:8080/users
+```
 - Create user:
+```
 POST http://localhost:8080/users
-
+```
 - Body (JSON):
-
+```
 {
   "name": "test",
   "email": "test@email.com"
 }
-
+```
 ====🗄️ DBeaver ====
 
 You can also check the database using DBeaver:
 
 1. Connect to MySQL (localhost:3306)
 2. Open database:
+```
 db_user
-3. Check table:
+```
+4. Check table:
+```
 user
+```
